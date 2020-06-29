@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\User_Accounts\UserList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\User_Accounts\EmployeeAccount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Schedule\Schedule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Schedule\Shift.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Payment\TrustyPayHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Payment\BankrupterHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Technical_Services\PaymentGateways\Bankrupter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Technical_Services\PaymentGateways\TrustyPay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\Notifications\NotificationList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User_Interface\SchedulerInteraction\AdminOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User_Interface\SchedulerInteraction\EmployeeOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User_Interface\SchedulerInteraction\MainUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User_Interface\SchedulerInteraction\ManagerOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Technical_Services\Logging\LoggerStub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Technical_Services\Persistence\StoredData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Domain\User_Accounts\UserList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\User_Accounts\EmployeeAccount.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\User_Accounts\AuthenticationAndAccountHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Schedule\ScheduleHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Schedule\Schedule.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Schedule\Shift.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Payment\PaymentHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Payment\TrustyPayHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Payment\BankrupterHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Technical_Services\PaymentGateways\Bankrupter.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Technical_Services\PaymentGateways\TrustyPay.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\Notifications\NotificationList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Interface\SchedulerInteraction\AdminOptions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Interface\SchedulerInteraction\EmployeeOptions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Interface\SchedulerInteraction\MainUI.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Interface\SchedulerInteraction\ManagerOptions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Interface\SchedulerInteraction\UIHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Interface\SchedulerInteraction\UserTypeOptions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Technical_Services\Logging\LoggingHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Technical_Services\Logging\LoggerStub.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Technical_Services\Persistence\PersistanceHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Technical_Services\Persistence\StoredData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
